@@ -1,0 +1,5 @@
+language: node_js
+node_js:
+ - '0.10'
+before_script:
+ - bash ./bin/sauce_connect_setup.sh

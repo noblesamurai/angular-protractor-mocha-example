@@ -1,0 +1,28 @@
+{
+  "name": "angular-protractor-mocha-example",
+  "version": "0.0.0",
+  "description": "An example of frontend testing with angular, protractor, mocha, saucelabs and travis.",
+  "main": "app/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "protractor protractor.config.js"
+  },
+  "keywords": [
+    "angular",
+    "protractor",
+    "testing",
+    "saucelabs"
+  ],
+  "author": "Timothy Leslie Allen <allen.timothy.email@gmail.com> (https://github.com/timlesallen)",
+  "license": "BSD-Clause 3",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4",
+    "protractor": "^1.1.1"
+  },
+  "dependencies": {
+    "express": "^4.8.5"
+  }
+}
